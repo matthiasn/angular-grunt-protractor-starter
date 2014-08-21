@@ -3,6 +3,7 @@ angular-grunt-protractor-starter
 
 AngularJS sample project with a grunt-based build system using Protractor and Karma. The AngularJS sample application itself is also using the AngularUI suite.
 
+## Installation
 First of all, before anything else, you need **Node.js** and **NPM**. To install both, the easiest is to follow the instructions on the **[Node.js homepage](http://nodejs.org)**.
 
 Afterwards, we need to install the following global dependencies:
@@ -29,6 +30,8 @@ That's it for the installation. Now in order to run the protractor tests, we wil
 
     npm install -g http-server
 
+## Running the tests
+
 Now from inside this project run:
 
     http-server -a localhost -p 8000
@@ -47,3 +50,23 @@ Or we can let grunt handle the call to protractor. The following tasks include t
 
     grunt test
     grunt dist
+
+## iOS testing
+
+You can also use Protractor for testing inside the iOS Simulator using Appium. First of all, we need to install Appium. You can either run:
+
+    npm install -g appium
+
+Or you can download the application from **[appium.io](http://appium.io)**. You will probably have to grant access to the mobile safari application using the following command:
+
+    sudo authorize_ios
+
+Then either start the **appium** app or run ```appium``` from the command line. You're ready to run the test on mobile safari:
+
+    protractor conf/protractor-ios.conf.js 
+
+There is also a grunt task for running this test:
+
+    
+
+Currently it is standalone but could also be integrated into the other test tasks.
