@@ -39,6 +39,11 @@ module.exports = function(grunt) {
         options: {
           configFile: 'conf/protractor-ios.conf.js'
         } 
+      },
+      andrid: {
+        options: {
+          configFile: 'conf/protractor-android.conf.js'
+        } 
       }
     }
   });
@@ -48,6 +53,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-karma');
   grunt.loadNpmTasks('grunt-protractor-runner');
   grunt.registerTask('test', ['karma', 'protractor:e2e']);
-  grunt.registerTask('mobile', ['protractor:ios']);
   grunt.registerTask('dist', ['karma', 'protractor', 'concat', 'targethtml', 'copy']);
 };

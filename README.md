@@ -67,6 +67,11 @@ Then either start the **appium** app or run ```appium``` from the command line. 
 
 There is also a grunt task for running this test:
 
-    
+    grunt ios
 
 Currently it is standalone but could also be integrated into the other test tasks.
+
+## Android testing
+Install Android SDK according to **[this tutorial](http://appium.io/slate/en/tutorial/android.html?ruby#bash-profile13)**. You also need **[hax](https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager)**.
+
+Not working yet, can you help? Further instructions **[https://github.com/angular/protractor/blob/master/docs/browser-setup.md](here)**.
