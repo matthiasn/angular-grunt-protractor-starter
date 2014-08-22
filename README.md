@@ -13,7 +13,7 @@ Afterwards, we need to install the following global dependencies:
     
     npm install -g karma-cli
     
-    npm install –g protractor
+    npm install -g protractor
     webdriver-manager update
 
 All commands above may require superuser priviledges. Only run with *sudo* if required though. 
