@@ -75,3 +75,6 @@ Currently it is standalone but could also be integrated into the other test task
 Install Android SDK according to **[this tutorial](http://appium.io/slate/en/tutorial/android.html?ruby#bash-profile13)**. You also need **[hax](https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager)**.
 
 Not working yet, can you help? Further instructions **[https://github.com/angular/protractor/blob/master/docs/browser-setup.md](here)**.
+
+## Further information
+This project is part of an upcoming blog article. Please check **[matthiasnehlsen.com](http://matthiasnehlsen.com)** for updates.
