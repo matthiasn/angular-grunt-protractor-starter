@@ -79,7 +79,9 @@ Not working yet, can you help? Further instructions at **[https://github.com/ang
 ## Further information
 This project is part of an upcoming blog article. Please check **[matthiasnehlsen.com](http://matthiasnehlsen.com)** for updates.
 
-## Licensed under the MIT License, like AngularJS itself
+## License
+
+This project is licensed under the **MIT License**, like AngularJS itself
 
 Copyright (c) 2014 Matthias Nehlsen
 
